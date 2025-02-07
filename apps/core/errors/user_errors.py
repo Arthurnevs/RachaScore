@@ -10,3 +10,5 @@ class Error:
     PASSWORD_CONFIRMATION_MISMATCH = "password.confirmation.mismatch"
 
     INVALID_FIELD_EMAIL = "invalid.field.email"
+
+    EMAIL_IS_ALREADY_IN_USE = "email.already_in_use"

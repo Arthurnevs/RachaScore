@@ -1,5 +1,6 @@
 from django.core.exceptions import ValidationError, BadRequest
 from apps.core.errors.user_errors import Error
+from apps.core.repositories.user_repository import get_user_by_email
 from apps.core.serializers.user_serializers import UserRegisterSerializer, UserBasicFieldsSerializer
 from apps.core.utils.bcrypt_util import hash_password
 from apps.core.utils.validation_util import validate_payload_required_fields, is_valid_email, validate_password
